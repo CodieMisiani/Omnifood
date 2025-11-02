@@ -1,25 +1,22 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <>
-      <nav>
-        <NavLink to="/" activeClassName="active">
-          Home
-        </NavLink>
-        <NavLink to="/HowItWorks" activeClassName="active">
-          HowItWorks
-        </NavLink>
-        <NavLink to="/Meals" activeClassName="active">
-          Meals
-        </NavLink>
-        <NavLink to="/Testimonials" activeClassName="active">
-          Testimonials
-        </NavLink>
-        <NavLink to="/Pricing" activeClassName="active">
-          Pricing
-        </NavLink>
+      <nav className="flex items-center justify-between">
+        <div className="flex space-x-6">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/HowItWorks">HowItWorks</NavLink>
+          <NavLink to="/Meals">Meals</NavLink>
+          <NavLink to="/Testimonials">Testimonials</NavLink>
+          <NavLink to="/Pricing">Pricing</NavLink>
+        </div>
+        <div>
+          <button type="button" className="pl-5 pr-5">
+            Click Me
+          </button>
+        </div>
       </nav>
     </>
   );

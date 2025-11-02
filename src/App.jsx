@@ -5,15 +5,17 @@ import Hero from "./Components/Hero";
 const App = () => {
   return (
     <>
-      <div className="w-[70rem] mx-auto bg-[#fae5d3]">
+      <section className="bg-[#fae5d3]">
         <header>
           <Header />
         </header>
-        <main className="min-h-screen flex items-center justify-center">
-          <Hero />
-          {/* <h1 className="text-3xl font-bold">Omnifood — React + Tailwind</h1> */}
-        </main>
-      </div>
+        <div className="w-[70rem] mx-auto ">
+          <main className="min-h-screen flex items-center justify-center">
+            <Hero />
+            {/* <h1 className="text-3xl font-bold">Omnifood — React + Tailwind</h1> */}
+          </main>
+        </div>
+      </section>
     </>
   );
 };

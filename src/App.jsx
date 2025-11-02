@@ -5,7 +5,7 @@ import Hero from "./Components/Hero";
 const App = () => {
   return (
     <>
-      <div className="w-[70rem] mx-auto">
+      <div className="w-[70rem] mx-auto bg-[#fae5d3]">
         <header>
           <Header />
         </header>

@@ -7,18 +7,28 @@ const Navigation = () => {
       <nav class="nav-bar" className="flex items-center justify-between">
         <div class="nav-container">
           <div class="nav-containerlink">
-            <NavLink to="/HowItWorks" class="navlinks">
-              HowItWorks
-            </NavLink>
-            <NavLink to="/Meals" class="navlinks">
-              Meals
-            </NavLink>
-            <NavLink to="/Testimonials" class="navlinks">
-              Testimonials
-            </NavLink>
-            <NavLink to="/Pricing" class="navlinks">
-              Pricing
-            </NavLink>
+            <ul>
+              <li>
+                <Link to="/HowItWorks" class="navlinks">
+                  HowItWorks
+                </Link>
+              </li>
+              <li>
+                <Link to="/Meals" class="navlinks">
+                  Meals
+                </Link>
+              </li>
+              <li>
+                <Link to="/Testimonials" class="navlinks">
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link to="/Pricing" class="navlinks">
+                  Pricing
+                </Link>
+              </li>
+            </ul>
           </div>
           <div>
             <button type="button" class="btn">

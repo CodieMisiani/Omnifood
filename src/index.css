@@ -56,6 +56,12 @@ body {
   border-radius: 4px;
   text-decoration: none;
   margin-top: 8px;
+  margin-right: 2rem;
+}
+
+.btn:hover {
+  background-color: #b8651b;
+  cursor: pointer;
 }
 
 .hero {
@@ -63,6 +69,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  align-items: center;
 }
 
 .heading-primary {
@@ -70,4 +77,10 @@ body {
   line-height: 4rem;
   color: #333;
   font-weight: 700;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Heroes from "../assets/hero.png"; // adjust path if different
+import customer1 from "../assets/customer-1.jpg"; // adjust path if different
 import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
             <p class="hero-description">
               The smart 365-days-per-year food subscription that will make you
               eat healthy again. Tailored to your personal tastes and
-              nutritional needs. We have delivered 250,000+ meals last year!
+              nutritional needs.
             </p>
             <Link to="#" class="btn">
               Start Eating Well
@@ -22,6 +23,38 @@ const Hero = () => {
             <Link to="#" class="btn">
               Learn More &darr;
             </Link>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img
+                  src={customer1}
+                  alt="Customer One Picture"
+                  // className="object-contain w-[10%]"
+                />
+                <img
+                  src={customer1}
+                  alt="Customer One Picture"
+                  // className="object-contain w-[10%]"
+                />
+                <img
+                  src={customer1}
+                  alt="Customer One Picture"
+                  // className="object-contain w-[10%]"
+                />
+                <img
+                  src={customer1}
+                  alt="Customer One Picture"
+                  // className="object-contain w-[10%]"
+                />
+                <img
+                  src={customer1}
+                  alt="Customer One Picture"
+                  // className="object-contain w-[10%]"
+                />
+              </div>
+              <p class="delivered-text">
+                <span>250,000+ </span>meals last year!
+              </p>
+            </div>
           </div>
           <div class="hero-img-box">
             <img

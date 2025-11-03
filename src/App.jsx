@@ -5,7 +5,7 @@ import Hero from "./Components/Hero";
 const App = () => {
   return (
     <>
-      <section className="bg-[#fae5d3]">
+      <section className="bg-[#fae5d3] ">
         <header>
           <Header />
         </header>

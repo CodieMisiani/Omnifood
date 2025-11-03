@@ -10,7 +10,7 @@ const Navigation = () => {
             <ul>
               <li>
                 <Link to="/HowItWorks" class="navlinks">
-                  HowItWorks
+                  How It Works
                 </Link>
               </li>
               <li>
@@ -32,7 +32,7 @@ const Navigation = () => {
           </div>
           <div>
             <button type="button" class="btn">
-              TryForFree
+              Try For Free
             </button>
           </div>
         </div>

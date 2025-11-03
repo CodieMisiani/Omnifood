@@ -55,6 +55,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   text-align: center;
   font-family: "Rubik", sans-serif;
   font-weight: 600;

@@ -19,7 +19,6 @@ body {
 /* HEADER */
 .logo {
   height: 1.2rem;
-
   margin-left: 9.6rem;
 }
 .nav-bar {
@@ -81,6 +80,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   align-items: center;
 }
 

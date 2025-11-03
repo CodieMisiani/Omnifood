@@ -16,10 +16,17 @@ body {
   color: #555;
 }
 
+/* HEADER */
+.logo {
+  height: 1.2rem;
+
+  margin-left: 9.6rem;
+}
 .nav-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-container {
